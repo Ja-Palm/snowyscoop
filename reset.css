@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+/*M3LO1 Demonstrate the use of a CSS reset style sheet my reset styles are down below
+
+/* Structural Styles */
+
+article, section, aside, figure, figcaption, header, nav, main {
+	display: block;
+}
+
+/* Text Styles */
+
+address, article, aside, html, body, figure, figcaption, header,
+nav, cite, div,dd, dt, dl, em, footer, h1, h2, h3, h4, h5, h6,
+img, li, main, p, ol, ul, span {
+	background: transparent;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+nav ul {
+	list-style: none;
+	list-style-image: none;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+body {
+	line-height: 1;
+}

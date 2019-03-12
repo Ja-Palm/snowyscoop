@@ -1,0 +1,511 @@
+@charset "utf-8";
+/* Base Styles */
+
+
+ 
+html {
+	background-image: url("ss_ski1.png");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+html {
+	margin: auto;
+	min-width: 900px;
+	max-width: 900px;
+}
+
+
+
+header {
+	height: 83.68px;
+	border-bottom: 2px solid rgb(0, 88, 126);
+	background-image: linear-gradient(to right, rgb(0, 88, 126), rgb(0, 168, 243), white);
+}
+
+
+header, section, nav {
+	display: block;
+	background-color: rgba(0, 168, 243, .1);
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	-moz-box-shadow: 0 0 20px 2px rgb(0, 88, 126);
+	-webkit-box-shadow: 0 0 20px 2px rgb(0, 88, 126);
+	box-shadow: 0 0 20px 2px rgb(0, 88, 126);
+	background-color: rgba(0, 168, 243, .8);
+	width: 100%;
+	margin: 0px;
+	color: white;
+	font-family: comic sans;
+}
+
+/* Header Styles */
+
+header a img {
+	width: 25%;
+	float: left;
+	padding: 0px;
+	border-bottom: 2px solid rgb(0, 88, 126)
+}
+
+header a img[src="ss_logo.png"]:hover {
+	width: 221px;
+	height: 81.66667px;
+	float: left;
+	padding: 0px;
+	border: 2px solid rgba(255, 174, 200)
+}
+
+section {
+	clear: both;
+}
+
+/* Text Styles */
+
+a {
+	padding: 0px;
+	color: lightBlue;
+	text-decoration: none;
+}
+a:hover {
+	color: rgb(255, 174, 200);
+}
+h1 {
+	font-size: 3em;
+	font-family: ocr a;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+h2 {
+	font-size: 1.75em;
+	text-decoration: underline;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+h3 {
+	font-size: 1.5em;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+h4 {
+	font-size: 2em;
+	font-family: ocr a;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+nav.sideNav h5 { 
+	text-align: center;
+	width: 221px;
+	border-right: 2px solid rgb(0, 88, 126);
+	border-left: 2px solid rgb(0, 88, 126);
+}
+
+/* Nav Styles */
+ 
+nav#siteNav li {
+	float: left;
+	color: black;
+	display: block;
+	width: 16.56%;
+	text-align: center;
+}
+nav#siteNav a {
+	float: left;
+	height: 24px;
+	line-height: 20px;
+	color: white;
+	Background-color: rgba(0, 88, 126);
+	display: block;
+}
+
+ a#submenuTitle {
+	float: left;
+	height: 24px;
+	line-height: 20px;
+	color: white;
+	Background-color: rgba(0, 88, 126);
+	display: none;
+	text-align: center;
+}
+
+nav#siteNav ul {
+	Width: 151%;
+}
+
+nav#siteNav {
+	display: block;
+	width: 75%;
+}
+
+nav#siteNav ul li {
+	font-size: 1.2em;
+	text-align: center;
+	list-style: none;
+	padding: 0px;
+	float: left;
+}
+
+/*M8LO10 Demonstrate a CSS animation or transition: I put a transition on my nav buttons and made sure I had browser extensions*/
+
+nav a {
+	background-color: rgb(0, 88, 126);
+	display: block;
+	text-decoration: none;
+	width: 100%;
+	-webkit-transition: background-color 250ms ease-in-out;
+	-moz-transition: background-color 250ms ease-in-out;
+	transition: background-color 250ms ease-in-out;
+}
+
+nav#siteNav a:hover {
+	background-color: rgb(255, 174, 200);
+	display: block;
+	height: 24px;
+	line-height: 20px;
+	text-decoration: none;
+	color: white;
+}
+
+section nav.sideNav a {
+	width: 201px;
+	height: 20px;
+	line-height: 20px;
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+
+section nav.sideNav ol li {
+	font-size: 1.0em; 
+	margin: 0px;
+}
+
+section nav.sideNav ol {
+	width: 225px;
+	list-style-type: decimal;
+	margin: 0px;
+	margin-left: 22px;
+	padding: 0px;
+}
+
+nav.sideNav {
+	
+    display: flex;
+	flex-basis: 225px;
+	flex-flow: column wrap;
+	width: 225px;
+	float: left;
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	background-color: rgb(0, 88, 126);
+}
+nav.sideNav a:hover {
+	color: rgb(0, 168, 243);
+}
+
+p {
+	margin: 0px;
+	padding-top: 8px;
+	padding-left: 233px;
+	width: 50%;
+}
+
+div {
+	margin: 0px;
+	padding-top: 8px;
+	padding-left: 233px;
+}
+/* Footer Styles */
+
+footer {
+	color: white;
+	background-color: rgb(0, 88, 126);
+	text-align: center;
+	border-top: 2px solid rgb(0, 168, 243);
+	height: 24px;
+	vertical-align: center;
+	clear: both;
+}
+footer a {
+	color: lightBlue;
+	text-decoration: none;
+}
+
+body section#theSnow {
+	width: 449px;
+	float: left;
+	clear: none;
+	border-right: 1px solid rgb(0, 88, 126);
+	border-collapse: collapse;
+}
+body section#theScoop {
+	width: 449px;
+	float: right;
+	clear: none;
+	border-left: 1px solid rgb(0, 88, 126);
+	border-collapse: collapse;
+}
+body section#theSnow h2, h3, h4 {
+	text-align: center;
+}
+
+body section#theScoop h2, h3, h4 {
+	text-align: center;
+}
+
+body section#theSnow p {
+	margin: auto;
+	padding-left: 0px;
+}
+
+#theSnow, #theScoop {
+	height: 460px;
+	overflow: auto;
+}
+
+section#main p {
+	margin-left: 0px;
+	padding-left: 0px;
+	text-align: center;
+	vertical-align: center;
+	background-color: rgb(0, 88, 126);
+}
+
+figure.stevens img {
+	border-radius: 25px;
+	width: 50%;
+	float: left;
+}
+
+figcaption.stevens {
+	float: left;
+	clear: left;
+}
+
+figure.baker img {
+	border-radius: 25px;
+	width: 50%;
+	float: right;
+	height: 300px;
+}
+
+figcaption.baker {
+	float: right;
+	clear: right;
+}
+
+/* Mobile Devices: 0 - 900 pixels */
+
+
+ 
+ /* Table Styles */
+ 
+ table {
+	max-width: 650px;
+	float: left;
+	border: solid;
+	font-family: comic-sans;
+	margin: auto;
+	background-color: rgb(0, 88, 126);
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+thead {
+	border: solid;
+	color: white;
+}
+
+td {
+	padding-left: 10px;
+	padding-right: 10px;
+	border: solid 1px;
+	font-size: 0.9em;
+}
+
+th#title {
+	border: solid 5px rgb(0, 168, 243);
+	font-size: 1.2em;
+}
+
+th.day {
+	border: solid 5px black;
+}
+
+th.instructor {
+	border: solid 3px rgb(255, 174, 200);
+}
+th.resort {
+	border-bottom: solid 1px black;
+	border-top: solid 1px black;
+}
+
+tfoot {
+	font-size: 1.1em;
+	text-align: center;
+}
+
+td > a {
+	text-decoration: none;
+	color: lightBlue;
+}
+
+/* form styles */
+
+/*M7LO11 Demonstrate how to format a form with CSS I changed the style and layout of my form with CSS*/
+
+form {
+	padding-left: 5px;
+	padding-top: 5px;
+	width: 220px;
+	float: left;
+	clear: both;
+	Background-color: rgb(0, 88, 126);
+}
+
+label {
+	float: left;
+}
+
+input, select, textarea {
+	clear: both;
+    display: block;
+    float: left;
+    margin: 1px 0px;
+    width: 210px;
+	font-family: Times, sans-serif;
+	font-size: 1em;
+	border: 2px solid black;
+}
+
+/* I-Frame Styles */
+
+iframe {
+	width: 650px;
+	height: 400px;
+}
+
+input#submit:hover {
+	background-color: rgb(255, 174, 200);
+}
+
+@media only screen and (max-width: 900px){
+	html {
+		min-width: 400px;
+		max-width: 400px;
+	}
+	
+	header {
+		height: 39.19px;
+		border-top: 2px solid rgb(0, 88, 126);
+	}
+	header a img[src="ss_logo.png"]:hover {
+		width: 96px;
+		height: 35.19px;
+	}
+	
+	h1 {
+		height: 39.19px;
+		font-size: 2em;
+	}
+	
+	h2 {
+		font-size: 1.25em;
+	}
+	
+	h3 {
+		font-size: 1em;
+	}
+	
+	nav#siteNav {
+		display: none;
+	}
+	
+	nav#siteNav li {
+		width: 22.1%;
+	}
+	
+	a#submenuTitle {
+		border-top: 2px solid rgb(0, 168, 243);
+		float: right;
+		display: block;
+		width: 100%;
+	}
+	
+	a#submenuTitle:hover+nav#siteNav, nav#siteNav:hover {
+		display: block;
+	}
+	
+	nav.sideNav {
+		width: 100px;
+		background-color: rgb(0, 88, 126);
+	}
+	
+	section nav.sideNav ol {
+		width: 100px;
+		margin-left: 12px;
+	}
+	
+	nav.sideNav  a {
+		width: 100px;
+	}
+	
+	section nav.sideNav a {
+		width: 88px;
+	}
+	
+	section nav.sideNav ol li {
+		font-size: 0.5em; 
+		margin: 0px;
+	}
+	
+	p {
+		padding-left: 112px;
+		font-size: 0.7em;
+	}
+	
+	div {
+		padding-left: 112px;
+		font-size: 0.9em;
+	}
+	
+	body section#theSnow {
+		width: 196px
+	}
+	
+	body section#theScoop {
+		width: 196px
+	}
+	
+	figure.baker img {
+		height: 150px;
+	}
+	
+	figure.stevens img {
+		height: 150px;
+	}
+	
+	iframe {
+		width: 275px;
+		height: 200px;
+	}
+	
+	footer {
+		font-size: 0.6em;
+		height: 14px;
+	}
+	
+}
